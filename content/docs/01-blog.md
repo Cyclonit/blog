@@ -2,6 +2,7 @@
 date: '2025-02-09T21:34:40+01:00'
 draft: false
 title: '01 Blog'
+ShowToc: true
 ---
 
 In this post, I explain how I set up this very blog using [Hugo](https://gohugo.io/), [GitHub Actions](https://github.com/features/actions) and [GitHub Pages](https://pages.github.com/). I've wanted to create my own blog for documenting some of my projects for a while, but never liked using tools like Wordpress or similar CMS. Web editors or proprietary formatting tools do not appeal to me.
@@ -269,7 +270,7 @@ First, you should start by claiming ownership of your domain. This prevents othe
 3. You'll be presented with the name and value for a `TXT` record to be configured in your nameserver. You being able to create this record in an authoritative nameserver proves your control of the domain to GitHub.
 4. Once you have added the requested record to your DNS, click on `Verify`. It should be done within a few minutes, but may take up to 24h in rare cases.
 
-### Using the Custom Domain for GitHub Pages
+## Using the Custom Domain for GitHub Pages
 
 quite verbose: <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>
 

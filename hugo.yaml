@@ -2,3 +2,9 @@ baseURL: https://blog.cyclonit.de/
 languageCode: en-us
 title: Cyclonit's Blog
 theme: ["PaperMod"]
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 2
+
