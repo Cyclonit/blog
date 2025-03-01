@@ -1,0 +1,9 @@
+{
+  "markdownlint.config": {
+    // allow leading `$` in code blocks
+    "MD014": false
+  },
+  "[md]": {
+    "editor.wordWrap": "bounded",
+  }
+}
