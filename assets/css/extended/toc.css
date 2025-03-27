@@ -1,16 +1,16 @@
-div.toc ol {
-  counter-reset: toc-counter;
+article.post-single {
 
-  li {
-    counter-increment: toc-counter;
+  div.toc ol {
+    counter-reset: toc-counter;
+
+    li {
+      counter-increment: toc-counter;
+    }
+
+    li::marker {
+      content: counter(toc-counter) " ";
+    }
   }
-
-  li::marker {
-    content: counter(toc-counter) " ";
-  }
-}
-
-article {
 
   counter-reset: h2;
 
